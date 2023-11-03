@@ -30,7 +30,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between p-2 sm:p-6">
       <Tabs defaultValue={menuData[0].title} className="w-full mx-auto">
         {/* Tab list */}
-        <TabsList className="grid w-full md:w-96 mx-auto grid-cols-1">
+        <TabsList className="grid w-full md:w-96 mx-auto grid-cols-2">
           {menuData.map((tab) => (
             <TabsTrigger key={tab.title} value={tab.title} className="text-xs">{tab.title}</TabsTrigger>
           ))}

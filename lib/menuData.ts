@@ -124,6 +124,67 @@ export const menuData = [
       }
     ]
   },
+  {
+    title: 'Desayunos',
+    description: '+30 agrega jugo de piña o jugo de piña con pepino o café',
+    sections: [
+      {
+        title: 'Omelletes y Huevos al gusto',
+        dishes: [
+          {
+            images: [
+              'https://imag.bonviveur.com/imagen-final-del-emplatado-de-los-huevos-rancheros.jpg'
+            ],
+            name: 'Huevos rancheros',
+            slug: 'huevos-rancheros',
+            shortDescription: 'Disfruta de nuestros huevos rancheros, la fusión perfecta de sabores caseros con una salsa de tomate picante sobre tortillas crujientes, coronados con huevos fritos al punto perfecto.',
+            price: 140
+          },
+          {
+            images: [
+              'https://d1uz88p17r663j.cloudfront.net/original/338fcd7678a278cae345d622e3498a63_huhu%20.png'
+            ],
+            name: 'Huevos motuleños',
+            slug: 'huevos-motulenos',
+            shortDescription: 'Huevos al gusto sobre una cama de tortilla frita, frijoles y bañados sobre la salsa motulb de Yucatan',
+            price: 140,
+          },
+          {
+            images: [
+              'https://www.quemenoxquemonix.com/wp-content/uploads/2023/02/tortitas_99C0169web.jpg'
+            ],
+            name: 'Tortitas de matcha',
+            slug: 'tortitas-de-matcha',
+            shortDescription: 'Suaves tortitas de plátano y matcha acompanados de fruta de temporada',
+            price: 145
+          }
+        ]
+      },
+      {
+        title: 'Pancakes',
+        dishes: [
+          {
+            images: [
+              'https://bloximages.newyork1.vip.townnews.com/yoursun.com/content/tncms/assets/v3/editorial/3/8b/38be349a-cd17-11ea-a4a6-0b9dfbf9bd49/5f19df7b94e8f.image.jpg?crop=1247%2C655%2C0%2C504&resize=1200%2C630&order=crop%2Cresize'
+            ],
+            name: 'Waffle de Piña',
+            slug: 'waffle-de-pina',
+            shortDescription: 'Piña asada, queso mozarella y nuez amielada sobre una cama de suaves waffle',
+            price: 150
+          },
+          {
+            images: [
+              'https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2017/06/paleo-chocolate-waffles-19.jpg'
+            ],
+            name: 'Waffle de cacao',
+            slug: 'waffle-de-cacao',
+            shortDescription: 'Ricos waffles acompañados de chocolate, brownie y jalea de menta',
+            price: 150
+          }
+        ]
+      }
+    ]
+  }
   // {
   //   title: 'Comida',
   //   description: 'Deliciosos platillos para saciar tu apetito a medio día.',

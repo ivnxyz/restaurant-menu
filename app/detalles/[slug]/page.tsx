@@ -46,7 +46,7 @@ export default function DetailPage({ params }: Props) {
       <main className='w-full max-w-3xl mx-auto py-4 px-2'>
         <h1 className='text-4xl font-semibold tracking-widest mt-2 md:mt-8'>{foundDish.name}</h1>
         <h3 className='text-lg text-green-500 mt-4'>${foundDish.price}</h3>
-        <p className='text-muted-foreground mt-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magnam iusto aperiam commodi beatae laboriosam veritatis? Molestias labore adipisci aut alias quos provident, repellendus harum, ea consequuntur maxime nemo reprehenderit?</p>
+        <p className='text-muted-foreground mt-8'>{foundDish.longDescription ?? foundDish.shortDescription}</p>
       </main>
     </>
   )
