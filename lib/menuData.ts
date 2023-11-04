@@ -191,7 +191,21 @@ export const menuData = [
             price: 130
           }
         ]
+      },
+      {
+        title: 'Enchiladas',
+        dishes: [
+          {
+            images:[
+              'https://images.unsplash.com/photo-1673925885673-15f8e48d4e7e?auto=format&fit=crop&q=80&w=2608&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+            ],
+            name: 'Enchiladas',
+            slug: 'enchiladas',
+            shortDescription: 'Enchiladas rellenas de pollo con tu salsa favorita verde o roja.',
+            price:125
+          }
+        ]
       }
     ]
-  }
+  },
 ]
