@@ -129,6 +129,29 @@ export const menuData = [
     description: '+30 agrega jugo de piña o jugo de piña con pepino o café',
     sections: [
       {
+        title: "Bowls",
+        dishes: [
+          {
+            "name": "Bowl Verde",
+            "slug": "bowl-verde",
+            "shortDescription": "Una combinación Mekima que no te puedes perder",
+            "price": 165,
+            "images": [
+              "https://i0.wp.com/unapizcadeamor.com/wp-content/uploads/2020/07/SEB0394-1.jpg?resize=800%2C530&ssl=1"
+            ]
+          },
+          {
+            "name": "Bowl de piña",
+            "slug": "bowl-piña",
+            "shortDescription": "Una combinación de frutos rojos, piña asada y yoghurt griego que no te puedes perder",
+            "price": 160,
+            "images": [
+              "https://sivarious.com/wp-content/uploads/2017/10/SMOOTHIE-BOWL-DE-PINA-Y-MANGO2.jpg"
+            ]
+          },
+        ]
+      },
+      {
         title: 'Omelletes y Huevos al gusto',
         dishes: [
           {
@@ -159,6 +182,33 @@ export const menuData = [
             price: 120,
           },
           {
+            "name": "Omelette de espinaca o flor de calabaza",
+            "slug": "omelete-de-espinaca-o-flor-de-calabaza",
+            "shortDescription": "Un omelette muy saludable y delicioso ",
+            "price": 120,
+            "images": [
+              "https://storage.googleapis.com/avena-recipes/2019/10/1571780212995.jpeg"
+            ]
+          },
+          {
+            "name": "Huevos benedictinos",
+            "slug": "huevos-benedictinos",
+            "shortDescription": "Huevos pochados acompanados de la clásica salsa holandesa ",
+            "price": 140,
+            "images": [
+              "https://i.blogs.es/eb0590/huevos-benedictinos/840_560.jpg"
+            ]
+          },
+          {
+            "name": "Huevos cazuela",
+            "slug": "huevos-cazuela",
+            "shortDescription": "Huevos en salsa estilo casse , acompanados de tomate cherry, aceitunas, bombones de queso de cabra ",
+            "price": 140,
+            "images": [
+              "https://cdn7.kiwilimon.com/recetaimagen/39521/51659.jpg"
+            ]
+          },
+          {
             images: [
               'https://www.quemenoxquemonix.com/wp-content/uploads/2023/02/tortitas_99C0169web.jpg'
             ],
@@ -166,6 +216,24 @@ export const menuData = [
             slug: 'tortitas-de-matcha',
             shortDescription: 'Suaves tortitas de plátano y matcha acompanados de fruta de temporada',
             price: 145
+          },
+          {
+            "name": "Toast Mekima",
+            "slug": "toast-mekima",
+            "shortDescription": "Portobello confitado en hogaza natural, barnizada en mantequilla de romero y acompanado de mermelada de tomate, terminando con un mix de lechugas aderezado con una vinagreta de cítricos ",
+            "price": 160,
+            "images": [
+              "URL_DE_LA_IMAGEN"
+            ]
+          },
+          {
+            "name": "Pan Francés",
+            "slug": "pan-frances",
+            "shortDescription": "Suave pan de caja tostado a la plancha en una cremosa mezcla de la casa ",
+            "price": 140,
+            "images": [
+              "URL_DE_LA_IMAGEN"
+            ]
           }
         ]
       },
