@@ -15,13 +15,10 @@ import {
 import { menuData } from "@/lib/menuData"
 import { Separator } from "@/components/ui/separator"
 import Link from 'next/link'
+import { redirect } from "next/navigation"
 
 export default function Home() {
-  return (
-    <div className="w-screen h-screen overflow-scroll">
-      <iframe className="w-full h-full" src='/menu.pdf' />
-    </div>
-  )
+  return redirect('/menu.pdf');
 
   return (
     <>
