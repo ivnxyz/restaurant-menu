@@ -18,7 +18,9 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <iframe className="w-screen h-screen" src='/menu.pdf' />
+    <div className="w-screen h-screen overflow-scroll">
+      <iframe className="w-full h-full" src='/menu.pdf' />
+    </div>
   )
 
   return (
