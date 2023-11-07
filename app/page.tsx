@@ -18,6 +18,10 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+    <iframe className="w-screen h-screen" src='/menu.pdf' />
+  )
+
+  return (
     <>
     <header className="bg-cover bg-center relative py-16" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80')" }}>
       <div className="absolute inset-0 bg-black opacity-75"></div>
